@@ -18,4 +18,22 @@
             return site_url("assets/js/".$lien);
         }
     }
+/*---------------------------------------- */
+    if ( ! function_exists('css_url3')){
+        function css_url3($lien){
+            return site_url("assets3/css/".$lien);
+        }
+    }
+
+    if ( ! function_exists('img_url3')){
+        function img_url3($lien){
+            return site_url("assets3/img/".$lien);
+        }
+    }
+
+    if ( ! function_exists('js_url3')){
+        function js_url3($lien){
+            return site_url("assets3/js/".$lien);
+        }
+    }
 ?>     

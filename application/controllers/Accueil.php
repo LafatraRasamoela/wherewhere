@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('Bonjour');
 
-class Controller extends CI_Controller {
+class Accueil extends CI_Controller {
 
     /**
      * Index Page for this controller.
@@ -29,9 +29,13 @@ class Controller extends CI_Controller {
         $this->load->view('single-hotel.php');
     }
 
-    public function recherche(){
-        $this->load->view('recherche.php');
+    public function listhotel()
+    {
+        $data['action'] = 'Liste des hotels';
+        $data['page']="listhotel";
+        $this->load->view('template', $data);
     }
+
 }
 
 ?>
