@@ -37,26 +37,76 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="row">
-                <?php foreach($allprovince as $key => $province){ ?>
+                    <a href="gallery.html">
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        
-                            <div class="single-location mb-30">
-                                <div class="location-img">
-                                    <img src="<?php echo site_url('assets/img/gallery/location1.png');?>" alt="">
-                                </div>
-                                <div class="location-details">
-                                    <p><?php echo $province['nomProvince']; ?></p>
-                                    <a href="#" class="location-btn">65 <i class="ti-plus"></i> Location</a>
-                                </div>
-                               
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="<?php echo site_url('assets/img/gallery/location1.png');?>" alt="">
                             </div>
-                        
+                            <div class="location-details">
+                                <p>Antananarivo</p>
+                                <a href="#" class="location-btn">65 <i class="ti-plus"></i> Location</a>
+                            </div>
+                        </div>
                     </div>
-                    <?php } ?>
+                    </a>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="<?php echo site_url('assets/img/gallery/location2.png');?>" alt="">
+                            </div>
+                            <div class="location-details">
+                                <p>Paris</p>
+                                <a href="#" class="location-btn">60 <i class="ti-plus"></i> Location</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="<?php echo site_url ('assets/img/gallery/location3.png');?>" alt="">
+                            </div>
+                            <div class="location-details">
+                                <p>Rome</p>
+                                <a href="#" class="location-btn">50 <i class="ti-plus"></i> Location</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="<?php echo site_url('assets/img/gallery/location4.png');?>" alt="">
+                            </div>
+                            <div class="location-details">
+                                <p>Italy</p>
+                                <a href="#" class="location-btn">28 <i class="ti-plus"></i> Location</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                                <img src="<?php echo site_url('assets/img/gallery/location5.png');?>" alt="">
+                            </div>
+                            <div class="location-details">
+                                <p>Nepal</p>
+                                <a href="#" class="location-btn">99 <i class="ti-plus"></i> Location</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-location mb-30">
+                            <div class="location-img">
+                               <img src="<?php echo site_url('assets/img/gallery/location6.png');?>" alt="">
+                            </div>
+                            <div class="location-details">
+                                <p>indonesia</p>
+                                <a href="#" class="location-btn">78 <i class="ti-plus"></i> Location</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
                 <!-- More Btn -->
                 
             </div>
