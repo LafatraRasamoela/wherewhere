@@ -32,6 +32,9 @@ class Controller extends CI_Controller {
     {
         $this->load->view('single-site.php');
     }
+    public function profile(){
+         $this->load->view('profile.php');
+    }
 
 }
 
