@@ -28,14 +28,11 @@ class Controller extends CI_Controller {
     {
         $this->load->view('single-hotel.php');
     }
-    public function listhotel()
+     public function singleSite()
     {
-        $this->load->view('listhotel.php');
+        $this->load->view('single-site.php');
     }
 
-    public function recherche(){
-        $this->load->view('recherche.php');
-    }
 }
 
 ?>
