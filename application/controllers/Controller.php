@@ -28,6 +28,10 @@ class Controller extends CI_Controller {
     {
         $this->load->view('single-hotel.php');
     }
+    public function listhotel()
+    {
+        $this->load->view('listhotel.php');
+    }
 
 }
 
